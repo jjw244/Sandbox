@@ -1,0 +1,3 @@
+ApplicationController.allow_forgery_protection = false
+
+app.post('/whatever_my_user_model_is/sign_in', {"whatever_my_user_model_is"=>{"email"=>"users@email.com", "password"=>"users_password"}})
